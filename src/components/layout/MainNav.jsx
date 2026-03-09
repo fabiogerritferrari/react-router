@@ -11,13 +11,13 @@ export default function MainNav() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <NavLink to='/' className="nav-link text-white">Home</NavLink>
+                            <NavLink to='/' id='nav-link' className="nav-link">Home</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to='/Products' className="nav-link text-white">Product</NavLink>
+                            <NavLink to='/Products' id='nav-link' className="nav-link">Product</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to='/about' className="nav-link text-white">About Us</NavLink>
+                            <NavLink to='/about' id='nav-link' className="nav-link">About Us</NavLink>
                         </li>
                     </ul>
                 </div>

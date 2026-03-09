@@ -7,3 +7,12 @@
     cursor: pointer;
     opacity: 0.5;
 }
+
+
+#nav-link {
+    color: white;
+}
+
+#nav-link.active {
+    color: #198754;
+}
