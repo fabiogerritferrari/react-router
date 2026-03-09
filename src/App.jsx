@@ -1,8 +1,8 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import HomePage from './components/HomePage'
-import AboutPage from './components/AboutPage'
-import ProductsPage from './components/ProductsPage'
-import DefaultLayout from './components/layout/DefaultLayout'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import HomePage from './components/HomePage';
+import AboutPage from './components/AboutPage';
+import ProductsPage from './components/ProductsPage';
+import DefaultLayout from './components/layout/DefaultLayout';
 
 function App() {
 
