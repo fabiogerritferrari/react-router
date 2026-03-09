@@ -9,7 +9,7 @@ export default function DefaultLayout() {
             <header>
                 <MainNav />
             </header>
-            <main>
+            <main className="container">
                 <Outlet />
             </main>
         </div>
