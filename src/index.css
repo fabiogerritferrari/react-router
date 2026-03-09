@@ -2,3 +2,8 @@
     width: 100%;
     height: 800px;
 }
+
+.badge:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
