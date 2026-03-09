@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom"
 
 export default function MainNav() {
     return (
-        <nav className="navbar navbar-expand-lg bg-dark border-bottom border-body text-light">
+        <nav className="navbar navbar-expand-lg bg-dark border-bottom border-body">
             <div className="container-fluid">
                 <a className="navbar-brand text-white" href="#">Navbar</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,10 +14,10 @@ export default function MainNav() {
                             <NavLink to='/' className="nav-link text-white">Home</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to='/Products' className="nav-link text-white">Link</NavLink>
+                            <NavLink to='/Products' className="nav-link text-white">Product</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to='/about' className="nav-link text-white">Link</NavLink>
+                            <NavLink to='/about' className="nav-link text-white">About Us</NavLink>
                         </li>
                     </ul>
                 </div>
