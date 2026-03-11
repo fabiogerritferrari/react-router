@@ -3,6 +3,7 @@ import HomePage from './components/HomePage';
 import AboutPage from './components/AboutPage';
 import ProductsPage from './components/ProductsPage';
 import DefaultLayout from './components/layout/DefaultLayout';
+import SinglePageProduct from './components/SinglePageProduct';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
           <Route path='/' element={<HomePage />}></Route>
           <Route path='/About' element={<AboutPage />}></Route>
           <Route path='/Products' element={<ProductsPage />}></Route>
+          <Route path='/Products/:id' element={<SinglePageProduct />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>

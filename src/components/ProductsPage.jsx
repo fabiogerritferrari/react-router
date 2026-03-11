@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
 import RenderCard from './products/RenderCard'
+import { Link } from "react-router-dom";
 
 export default function ProductsPage() {
 
@@ -17,20 +18,19 @@ export default function ProductsPage() {
 
 
     return (
-        <div className="row mt-5 bg-success">
-            <h1 className="my-5 text-white">Prodotti</h1>
-            <ul>
+        <div className="container mt-5 bg-success">
+            <h1 className="row my-5 text-white">Prodotti</h1>
+            <div className="row row-cols-1 row-cols-md-3 g-4">
                 {products.map((product) => {
                     return (
-
-                        <li key={product.id}>
+                        <Link to={`/products/${product.id}`} key={product.id}>
                             <RenderCard
                                 product={product}
                             />
-                        </li>
+                        </Link>
                     )
                 })}
-            </ul>
+            </div>
         </div>
     )
 }
