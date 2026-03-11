@@ -27,3 +27,12 @@
 #nav-link.active {
     color: #198754;
 }
+
+#not-found {
+    background-image: url('https://static.vecteezy.com/ti/vettori-gratis/t2/8255803-pagina-non-trovata-errore-404-aggiornamenti-di-sistema-caricamento-informatica-operazione-installazione-programmi-manutenzione-del-sistema-un-modello-di-layout-disegnato-a-mano-di-un-vettore-robot-rotto-illustrazione-vettoriale.jpg');
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+}

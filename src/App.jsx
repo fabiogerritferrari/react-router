@@ -4,6 +4,7 @@ import AboutPage from './components/AboutPage';
 import ProductsPage from './components/ProductsPage';
 import DefaultLayout from './components/layout/DefaultLayout';
 import SinglePageProduct from './components/SinglePageProduct';
+import NotFoundPage from './components/NotFoundPage';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
           <Route path='/Products' element={<ProductsPage />}></Route>
           <Route path='/Products/:id' element={<SinglePageProduct />}></Route>
         </Route>
+        <Route path='*' element={<NotFoundPage />}></Route>
       </Routes>
     </BrowserRouter>
   )
